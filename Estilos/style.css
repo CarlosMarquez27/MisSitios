@@ -1,0 +1,311 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Times New Roman', Times, serif;
+	color: rgb(255, 255, 255);
+	background: #85a6c5; 
+	font-size: 1em;
+	line-height: 1.5em;
+
+	padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
+}
+
+
+
+pre{
+	float: none;
+	width: 5;
+	height: 50;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1.5em;
+}
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+    
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+
+
+}	
+	#main-header a {
+		color: white;
+	}
+
+    /*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+#logo-header:hover {
+color: #0b76a6;
+}
+	
+#logo-header .site-name {
+	display: block;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+	
+#logo-header .site-desc {
+	display: block;
+	font-weight: 300;
+	font-size: 0.8em;
+	color: #999;
+}
+
+/* EL estilo para toda la Navegación */
+ 
+nav {
+float: right;
+}
+nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+padding-right: 20px;
+}
+	
+nav ul li {
+display: inline-block;
+line-height: 80px;
+}
+			
+nav ul li a {
+display: block;
+padding: 0 10px;
+text-decoration: none;
+}
+			
+nav ul li a:hover {
+background: #0b76a6;
+}
+
+
+/* Con estos estilos aplicaremos diseño al contenido:*/
+
+#main-content {
+     background: #333;
+     width: 200%;
+     max-width: 800px;
+	 height: 520px;
+     margin: 20px auto;
+     box-shadow: 0 0 10px rgba(252, 250, 250, 0.1);
+	 float: none;
+}
+                
+#main-content header,
+#main-content .content {
+padding: 35px;
+}
+
+
+#main-footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+	width: 100%;
+	top: 100%;
+    }
+#main-footer p {
+    margin: 0;
+    color: white;
+}
+        
+
+#main-footer a {
+    color: white;
+}
+
+.imgRedonda {
+    width:300px;
+    height:300px;
+    border-radius:160px;
+    border:10px solid #666;
+	padding: 0.8px;
+}
+
+.imagenesResdes{
+	width:80px;
+    height:80px;
+	margin: 10px;
+	padding: auto;
+}
+
+.article-imagen img{
+	width: 75;
+	height: 70;
+	margin: 20px;
+	float: left;
+	margin-right: 15px;
+	margin-top: 5px;
+}
+
+.article-imagen em{
+    
+	font-size: 28px;
+	font-weight: 200px;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    max-height: max-content;
+
+}
+.headerTitulo{
+     
+	background: #333;
+}
+
+hr {
+	height: 2px;
+	background-color: rgb(253, 253, 253);
+	margin-bottom: 0%;
+  }
+    
+.imgDatoPer{
+
+	width: 75;
+	height: 85;
+	margin: 20px;
+
+    display: flex;
+    justify-content: center;
+
+}  
+
+/* Aqui empiesa los estilos de las tabla html y css*/
+
+#TablaHtml{
+
+	text-align: center;
+	width: 60%;
+    padding-left: 160px;
+	margin: 0 auto;
+    caption-side: bottom;
+
+}
+
+table{
+    width: 80%;
+	border: 1px solid black;
+	border-collapse: collapse;
+	color: black;	
+	padding-right: 2px;
+
+}
+
+#Et1{
+
+	border: 1px solid red;
+	border-collapse: collapse;
+	color: white;
+	text-align: center;
+	background: red;
+	width: 30%;
+}
+#Et2{
+	height: 35;
+	border: 1px solid black;
+	border-collapse: collapse;
+	color: white;
+	text-align: center;
+	background: #333;
+}
+
+td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	color: black;
+	text-align: left;
+	font-size: 18px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+	color: black;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+#PreHtml{
+    font-size: 18px;
+	font-family: 'Times New Roman', Times, serif;
+	color: black;
+
+}
+
+pre{
+
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+	color: black;
+	font-size: 16px;
+	font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin: 0%;
+	padding-left: 15px;
+	padding-bottom: 10px;
+}
+
+h1{
+	color: black;
+	font-size: 45px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin: 0%;
+    text-align: center;
+	padding-bottom: 10px;
+	font-weight: bold;
+
+}
+hr{
+	background: rgb(110, 155, 223);
+	border: 1px solid;
+}
+.Etiquetas{
+     color: rgb(238, 10, 10);
+	 font-family: 'Times New Roman', Times, serif;
+	 text-align: center;
+	 padding-right: 10px;
+	 width: 30%;
+
+}
+
+#Contenedor{
+
+
+	width: 75%;
+	padding-bottom: 60px;
+	padding-top: 30px;
+	margin: 0 auto;
+    background: white;
+    border: 2PX solid gray;
+
+
+}
+
+#Nombre{
+    
+	color: white;
+
+}
